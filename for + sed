@@ -1,0 +1,2 @@
+#use for + sed
+for f in `ls *.txt`; do sed '2,$!d' $f >> 0.out; done
